@@ -41,7 +41,7 @@ public class ManipulacaoData {
 
         // comparação de datas (antes, depois, período entre duas datas)
         LocalDate localDateAntigo = LocalDate.of(1993, 2, 8);
-        LocalDate localDateNovo = LocalDate.of(2020, 6, 14);
+        LocalDate localDateNovo = LocalDate.of(2021, 4, 1);
 
         System.out.println(localDateAntigo.isAfter(localDateNovo));
         System.out.println(localDateAntigo.isBefore(localDateNovo));
