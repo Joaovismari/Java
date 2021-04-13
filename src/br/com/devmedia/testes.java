@@ -1,28 +1,17 @@
 package br.com.devmedia;
 
-import java.util.Arrays;
-import java.util.Random;
+import br.com.devmedia.operacoes.Matematica;
 
 public class testes {
     public static void main(String[] args) {
-        //(1) cria o array "a" e o preenche com uma sequência de números aleatórios
-        int[] a = new int[5];
-        Random numeros = new Random();
-        for (int i = 0; i < a.length; i++) {
-            a[i] = numeros.nextInt();
-            System.out.println("a[" + i + "]=" + a[i]);
-        }
+
+        int n = (int)Math.round(Math.random() * 100);
+        int m = (int)Math.round(Math.random() * 100);
+        System.out.printf("numero %s dividido por %s = %s",n,m, Matematica.divisao(n,m));
         System.out.println();
 
-        //(2) Copia o conteúdo de "a" para "b" com o uso do método “Arrays.copyOf()”
-
-        int[] b = Arrays.copyOf(a, a.length);  //automaticamente reserva espaço para "b"
-//e copia o conteúdo de "a" para "b"
-
-
-        //(3) exibe o conteúdo de "b"
-        for (int i = 0; i < a.length; i++) {
-            System.out.println("b[" + i + "]=" + b[i]);
-        }
     }
+
+
 }
+

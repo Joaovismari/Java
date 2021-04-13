@@ -1,4 +1,4 @@
-package br.com.devmedia;
+package br.com.devmedia.Arrays;
 
 public class VetorSimples {
     private static final int hora = 0;

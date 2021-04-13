@@ -1,4 +1,4 @@
-package br.com.devmedia;
+package br.com.devmedia.Arrays;
 
 import java.util.Arrays;
 import java.util.Collections;

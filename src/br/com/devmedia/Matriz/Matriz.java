@@ -1,4 +1,4 @@
-package br.com.devmedia;
+package br.com.devmedia.Matriz;
 
 import java.util.Scanner;
 
