@@ -1,4 +1,4 @@
-package br.com.devmedia.Generics;
+package br.com.devmedia.Generics.testes;
 
 import java.util.ArrayList;
 import java.util.List;
